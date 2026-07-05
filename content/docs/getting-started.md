@@ -29,45 +29,52 @@ node hello.js
 
 ## Admonitions
 
-::: note This is a note
+:::note This is a note
 Additional information that might be helpful.
 :::
 
-::: info FYI
+:::info FYI
 This is an info block with general information.
 :::
 
-::: tip Pro Tip
+:::tip Pro Tip
 Always use version control for your projects.
 :::
 
-::: warning Be Careful
+:::warning Be Careful
 This operation might have side effects.
 :::
 
-::: caution Double Check
+:::caution Double Check
 Review your changes before deploying to production.
 :::
 
-::: danger Critical
+:::danger Critical
 This action cannot be undone!
 :::
 
 ## Tabs
 
 ;;tabs
+
 ## npm
+
 ```bash
 npm install express
 ```
+
 ## yarn
+
 ```bash
 yarn add express
 ```
+
 ## pnpm
+
 ```bash
 pnpm add express
 ```
+
 ;;
 
 ## Media Embedding
@@ -77,6 +84,7 @@ pnpm add express
 ## API Documentation Example
 
 & route GET /api/users List all users &
+
 & route POST /api/users Create a new user &
 
 < response 200 User list retrieved successfully <
@@ -85,7 +93,7 @@ pnpm add express
 
 ## Reusable References
 
-# define-reference api-base ...
+# define-reference api-base
 Base URL: `https://api.example.com/v1`
 ...
 
