@@ -1,0 +1,72 @@
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+  <!-- Hero -->
+  <div class="flex flex-col md:flex-row items-center gap-8 md:gap-16 mb-16">
+    <div class="flex-1 text-center md:text-left">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white mb-4 leading-tight">
+        Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-sky-600"><%= config.fullName %></span>
+      </h1>
+      <p class="text-xl text-slate-600 dark:text-slate-400 mb-2"><%= config.occupation %></p>
+      <p class="text-base text-slate-500 dark:text-slate-400 max-w-lg mx-auto md:mx-0"><%= config.bio %></p>
+    </div>
+    <div class="shrink-0">
+      <img src="<%= config.avatar %>" alt="<%= config.fullName %>" class="w-48 h-48 sm:w-56 sm:h-56 rounded-3xl object-cover ring-4 ring-sky-400/30 shadow-xl">
+    </div>
+  </div>
+
+  <!-- Operational DNA -->
+  <section class="mb-16">
+    <h2 class="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-6">Operational DNA</h2>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+        <div class="w-10 h-10 rounded-xl bg-sky-100 dark:bg-sky-900/40 flex items-center justify-center mb-3"><i data-lucide="user" class="w-5 h-5 text-sky-600 dark:text-sky-400"></i></div>
+        <h3 class="font-semibold text-slate-800 dark:text-slate-100 mb-1">Who Am I</h3>
+        <p class="text-sm text-slate-500 dark:text-slate-400">A passionate software engineer who loves turning ideas into reality through code.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+        <div class="w-10 h-10 rounded-xl bg-sky-100 dark:bg-sky-900/40 flex items-center justify-center mb-3"><i data-lucide="briefcase" class="w-5 h-5 text-sky-600 dark:text-sky-400"></i></div>
+        <h3 class="font-semibold text-slate-800 dark:text-slate-100 mb-1">Occupation</h3>
+        <p class="text-sm text-slate-500 dark:text-slate-400">Building full-stack web applications and distributed systems.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+        <div class="w-10 h-10 rounded-xl bg-sky-100 dark:bg-sky-900/40 flex items-center justify-center mb-3"><i data-lucide="heart" class="w-5 h-5 text-sky-600 dark:text-sky-400"></i></div>
+        <h3 class="font-semibold text-slate-800 dark:text-slate-100 mb-1">Hobbies</h3>
+        <p class="text-sm text-slate-500 dark:text-slate-400">Photography, hiking, reading sci-fi, and experimenting with new tech.</p>
+      </div>
+      <div class="bg-white dark:bg-slate-800 rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+        <div class="w-10 h-10 rounded-xl bg-sky-100 dark:bg-sky-900/40 flex items-center justify-center mb-3"><i data-lucide="sparkles" class="w-5 h-5 text-sky-600 dark:text-sky-400"></i></div>
+        <h3 class="font-semibold text-slate-800 dark:text-slate-100 mb-1">Interests</h3>
+        <p class="text-sm text-slate-500 dark:text-slate-400">Open source, Rust, distributed systems, and developer tooling.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects -->
+  <% if (featuredProjects && featuredProjects.length) { %>
+  <section class="mb-16">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold text-slate-800 dark:text-slate-100">Portfolio Projects</h2>
+      <span class="text-xs text-slate-400 dark:text-slate-500">Featured</span>
+    </div>
+    <div class="grid sm:grid-cols-2 gap-6">
+      <% featuredProjects.forEach(function(p) { %>
+        <%- include('../partials/project-card', { project: p }) %>
+      <% }); %>
+    </div>
+  </section>
+  <% } %>
+
+  <!-- Latest Posts -->
+  <% if (latestPosts && latestPosts.length) { %>
+  <section>
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold text-slate-800 dark:text-slate-100">Recent Publications</h2>
+      <a href="/blog" class="text-sm text-sky-600 dark:text-sky-400 hover:text-sky-700 dark:hover:text-sky-300 transition-colors">View all &rarr;</a>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <% latestPosts.forEach(function(p) { %>
+        <%- include('../partials/post-card', { post: p }) %>
+      <% }); %>
+    </div>
+  </section>
+  <% } %>
+</div>

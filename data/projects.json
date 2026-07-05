@@ -1,0 +1,20 @@
+[
+  {
+    "id": "portfolio-v2",
+    "title": "Portfolio v2",
+    "description": "Personal portfolio website built with Node.js, Express, and Tailwind CSS. Zero-database architecture using Markdown files.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
+    "tags": ["Node.js", "Express", "Tailwind CSS", "Markdown"],
+    "featured": true,
+    "href": "https://github.com/ardhian/portfolio-v2"
+  },
+  {
+    "id": "cli-toolkit",
+    "title": "CLI Toolkit",
+    "description": "Collection of CLI utilities for daily development workflow automation, written in Rust.",
+    "image": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=600&q=80",
+    "tags": ["Rust", "CLI", "Automation"],
+    "featured": true,
+    "href": "https://github.com/ardhian/cli-toolkit"
+  }
+]

@@ -1,0 +1,61 @@
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <h1 class="text-3xl font-bold text-slate-900 dark:text-white mb-8">Blog</h1>
+
+  <!-- Search & Sort & Filter -->
+  <div class="flex flex-col sm:flex-row gap-4 mb-6">
+    <div class="flex-1">
+      <input type="text" id="search-input" placeholder="Search posts..." oninput="filterPosts()" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-sky-500/50 transition-all duration-200">
+    </div>
+    <select id="sort-select" onchange="filterPosts()" class="px-4 py-2.5 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-2 focus:ring-sky-500/50 transition-all duration-200">
+      <option value="newest" <%= activeSort === 'newest' ? 'selected' : '' %>>Newest First</option>
+      <option value="oldest" <%= activeSort === 'oldest' ? 'selected' : '' %>>Oldest First</option>
+    </select>
+  </div>
+
+  <!-- Tags -->
+  <% if (tags && tags.length) { %>
+  <div class="flex flex-wrap gap-2 mb-8">
+    <a href="/blog" class="px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 <%= !activeTag ? 'bg-sky-500 text-white shadow-sm' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700' %>">All</a>
+    <% tags.forEach(function(tag) { %>
+      <a href="/blog?tag=<%= tag %>" class="px-3 py-1.5 rounded-full text-xs font-medium transition-all duration-200 <%= activeTag === tag ? 'bg-sky-500 text-white shadow-sm' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700' %>"><%= tag %></a>
+    <% }); %>
+  </div>
+  <% } %>
+
+  <!-- Posts Grid -->
+  <div id="posts-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <% posts.forEach(function(p) { %>
+      <div class="post-card" data-title="<%= p.title.toLowerCase() %>" data-tags="<%= (p.tags || []).join(',') %>" data-date="<%= p.createdAt %>">
+        <%- include('../partials/post-card', { post: p }) %>
+      </div>
+    <% }); %>
+  </div>
+
+  <% if (!posts.length) { %>
+    <p class="text-center text-slate-500 dark:text-slate-400 py-12">No posts found.</p>
+  <% } %>
+</div>
+
+<script>
+function filterPosts() {
+  var search = document.getElementById('search-input').value.toLowerCase();
+  var sort = document.getElementById('sort-select').value;
+  var grid = document.getElementById('posts-grid');
+  var cards = Array.from(grid.querySelectorAll('.post-card'));
+
+  cards.forEach(function(card) {
+    var title = card.dataset.title || '';
+    var tags = card.dataset.tags || '';
+    var match = title.includes(search) || tags.includes(search);
+    card.style.display = match ? '' : 'none';
+  });
+
+  if (sort === 'oldest') {
+    cards.sort(function(a, b) { return a.dataset.date.localeCompare(b.dataset.date); });
+  } else {
+    cards.sort(function(a, b) { return b.dataset.date.localeCompare(a.dataset.date); });
+  }
+
+  cards.forEach(function(card) { grid.appendChild(card); });
+}
+</script>

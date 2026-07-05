@@ -1,0 +1,25 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "glob": "^10.3.10",
+    "gray-matter": "^4.0.3",
+    "helmet": "^7.1.0",
+    "highlight.js": "^11.9.0",
+    "markdown-it": "^14.0.0",
+    "markdown-it-multimd-table": "^4.2.3",
+    "@mdit/plugin-figure": "^1.0.1",
+    "@mdit/plugin-img-lazyload": "^1.0.1",
+    "@mdit/plugin-tab": "^1.0.1",
+    "prismjs": "^1.29.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
