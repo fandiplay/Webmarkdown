@@ -1,10 +1,10 @@
 {
-  "siteName": "Ardhian",
+  "siteName": "Arfan",
   "siteTitle": "Personal Portfolio & Blog",
   "siteDescription": "Software engineer, writer, and lifelong learner. Sharing thoughts on code, life, and everything in between.",
   "siteUrl": "https://ardhian.vercel.app",
-  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=ardhian",
-  "fullName": "Ardhian",
-  "occupation": "Software Engineer",
+  "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=afand",
+  "fullName": "Arfandi",
+  "occupation": "Development hobby",
   "bio": "Building things that matter. Passionate about web development, distributed systems, and open source."
 }
