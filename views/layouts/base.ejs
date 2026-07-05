@@ -6,14 +6,14 @@
   <%- include('../partials/seo') %>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script>
     tailwind.config = {
       darkMode: 'class',
       theme: {
         extend: {
-          fontFamily: { sans: ['Poppins', 'sans-serif'] },
+          fontFamily: { sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'] },
           animation: { fadeIn: 'fadeIn 0.3s ease-in-out' },
           keyframes: { fadeIn: { '0%': { opacity: 0, transform: 'translateY(4px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } } }
         }
@@ -37,65 +37,65 @@
     .prose pre { background: transparent; padding: 0; margin: 0; }
     .prose pre code { background: transparent; padding: 0; }
 
-    /* ── Prism theme (light) ── */
-    .token.comment, .token.prolog, .token.doctype, .token.cdata { color: #6b7280; font-style: italic; }
-    .token.punctuation { color: #9ca3af; }
-    .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol { color: #d97706; }
-    .token.selector, .token.attr-name, .token.builtin { color: #059669; }
-    .token.string, .token.char { color: #059669; }
-    .token.operator, .token.entity, .token.url { color: #7c3aed; }
-    .token.atrule, .token.attr-value, .token.keyword { color: #2563eb; }
-    .token.function, .token.class-name { color: #d97706; }
-    .token.regex, .token.important, .token.variable { color: #dc2626; }
+    /* ── Prism theme (light) — Wise palette ── */
+    .token.comment, .token.prolog, .token.doctype, .token.cdata { color: #868685; font-style: italic; }
+    .token.punctuation { color: #868685; }
+    .token.property, .token.tag, .token.boolean, .token.number, .token.constant, .token.symbol { color: #ffc091; }
+    .token.selector, .token.attr-name, .token.builtin { color: #2ead4b; }
+    .token.string, .token.char { color: #2ead4b; }
+    .token.operator, .token.entity, .token.url { color: #163300; }
+    .token.atrule, .token.attr-value, .token.keyword { color: #163300; }
+    .token.function, .token.class-name { color: #ffc091; }
+    .token.regex, .token.important, .token.variable { color: #d03238; }
     .token.important, .token.bold { font-weight: 700; }
     .token.italic { font-style: italic; }
 
     /* ── Prism theme (dark) ── */
-    .dark .token.comment, .dark .token.prolog, .dark .token.doctype, .dark .token.cdata { color: #94a3b8; }
-    .dark .token.punctuation { color: #64748b; }
-    .dark .token.property, .dark .token.tag, .dark .token.boolean, .dark .token.number, .dark .token.constant, .dark .token.symbol { color: #fbbf24; }
-    .dark .token.selector, .dark .token.attr-name, .dark .token.builtin { color: #34d399; }
-    .dark .token.string, .dark .token.char { color: #34d399; }
-    .dark .token.operator, .dark .token.entity, .dark .token.url { color: #a78bfa; }
-    .dark .token.atrule, .dark .token.attr-value, .dark .token.keyword { color: #60a5fa; }
-    .dark .token.function, .dark .token.class-name { color: #fbbf24; }
+    .dark .token.comment, .dark .token.prolog, .dark .token.doctype, .dark .token.cdata { color: #6b6b6a; }
+    .dark .token.punctuation { color: #6b6b6a; }
+    .dark .token.property, .dark .token.tag, .dark .token.boolean, .dark .token.number, .dark .token.constant, .dark .token.symbol { color: #ffc091; }
+    .dark .token.selector, .dark .token.attr-name, .dark .token.builtin { color: #6ee7a0; }
+    .dark .token.string, .dark .token.char { color: #6ee7a0; }
+    .dark .token.operator, .dark .token.entity, .dark .token.url { color: #9fe870; }
+    .dark .token.atrule, .dark .token.attr-value, .dark .token.keyword { color: #9fe870; }
+    .dark .token.function, .dark .token.class-name { color: #ffc091; }
     .dark .token.regex, .dark .token.important, .dark .token.variable { color: #f87171; }
 
-    /* ── Markdown refinements ── */
-    .prose { --tw-prose-body: theme('colors.slate.700'); --tw-prose-headings: theme('colors.slate.800'); --tw-prose-links: theme('colors.sky.600'); --tw-prose-bold: theme('colors.slate.800'); --tw-prose-counters: theme('colors.slate.400'); --tw-prose-bullets: theme('colors.slate.300'); --tw-prose-hr: theme('colors.slate.200'); --tw-prose-quotes: theme('colors.slate.600'); --tw-prose-quote-borders: theme('colors.sky.500'); --tw-prose-captions: theme('colors.slate.500'); --tw-prose-code: theme('colors.slate.800'); --tw-prose-pre-code: theme('colors.slate.200'); --tw-prose-pre-bg: theme('colors.slate.900'); --tw-prose-th-borders: theme('colors.slate.300'); --tw-prose-td-borders: theme('colors.slate.200'); }
-    .dark .prose { --tw-prose-body: theme('colors.slate.300'); --tw-prose-headings: theme('colors.slate.100'); --tw-prose-links: theme('colors.sky.400'); --tw-prose-bold: theme('colors.slate.200'); --tw-prose-counters: theme('colors.slate.500'); --tw-prose-bullets: theme('colors.slate.600'); --tw-prose-hr: theme('colors.slate.700'); --tw-prose-quotes: theme('colors.slate.400'); --tw-prose-quote-borders: theme('colors.sky.400'); --tw-prose-captions: theme('colors.slate.400'); --tw-prose-code: theme('colors.slate.200'); --tw-prose-pre-code: theme('colors.slate.300'); --tw-prose-pre-bg: theme('colors.slate.900'); --tw-prose-th-borders: theme('colors.slate.600'); --tw-prose-td-borders: theme('colors.slate.700'); }
+    /* ── Markdown refinements — Wise palette ── */
+    .prose { --tw-prose-body: #454745; --tw-prose-headings: #0e0f0c; --tw-prose-links: #163300; --tw-prose-bold: #0e0f0c; --tw-prose-counters: #868685; --tw-prose-bullets: #c5edab; --tw-prose-hr: #e8ebe6; --tw-prose-quotes: #454745; --tw-prose-quote-borders: #9fe870; --tw-prose-captions: #868685; --tw-prose-code: #0e0f0c; --tw-prose-pre-code: #c5edab; --tw-prose-pre-bg: #0e0f0c; --tw-prose-th-borders: #c5edab; --tw-prose-td-borders: #e8ebe6; }
+    .dark .prose { --tw-prose-body: #c8cac5; --tw-prose-headings: #e8ebe6; --tw-prose-links: #9fe870; --tw-prose-bold: #e8ebe6; --tw-prose-counters: #6b6b6a; --tw-prose-bullets: #3a3d35; --tw-prose-hr: #2a2d25; --tw-prose-quotes: #c8cac5; --tw-prose-quote-borders: #9fe870; --tw-prose-captions: #6b6b6a; --tw-prose-code: #e8ebe6; --tw-prose-pre-code: #c8cac5; --tw-prose-pre-bg: #1a1c18; --tw-prose-th-borders: #3a3d35; --tw-prose-td-borders: #2a2d25; }
 
     .prose th, .prose td { padding: 0.625rem 0.75rem; }
-    .prose thead th { font-weight: 600; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; color: var(--tw-prose-counters); background: #f8fafc; }
-    .dark .prose thead th { background: #1e293b; }
-    .prose tbody tr:hover { background: #f1f5f9; transition: background 0.15s; }
-    .dark .prose tbody tr:hover { background: #1e293b; }
+    .prose thead th { font-weight: 600; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em; color: var(--tw-prose-counters); background: #e2f6d5; }
+    .dark .prose thead th { background: #1a2a0a; }
+    .prose tbody tr:hover { background: #e8ebe6; transition: background 0.15s; }
+    .dark .prose tbody tr:hover { background: #1a1c18; }
 
     .prose h2 { padding-bottom: 0.5rem; border-bottom: 1px solid var(--tw-prose-hr); }
     .prose h3 { position: relative; padding-left: 0.75rem; }
-    .prose h3::before { content: ''; position: absolute; left: 0; top: 0.25em; bottom: 0.25em; width: 3px; border-radius: 2px; background: theme('colors.sky.500'); }
+    .prose h3::before { content: ''; position: absolute; left: 0; top: 0.25em; bottom: 0.25em; width: 3px; border-radius: 2px; background: #9fe870; }
 
-    .prose blockquote { font-weight: 400; background: #f8fafc; border-radius: 0.5rem; padding: 0.75rem 1.25rem; border-left-width: 4px; }
-    .dark .prose blockquote { background: #1e293b; }
+    .prose blockquote { font-weight: 400; background: #e8ebe6; border-radius: 0.5rem; padding: 0.75rem 1.25rem; border-left-width: 4px; }
+    .dark .prose blockquote { background: #1a1c18; }
     .prose blockquote p:first-of-type { margin-top: 0; }
     .prose blockquote p:last-of-type { margin-bottom: 0; }
 
     .prose hr { margin-top: 2.5rem; margin-bottom: 2.5rem; }
 
-    .prose ul > li::marker { color: theme('colors.sky.500'); }
-    .dark .prose ul > li::marker { color: theme('colors.sky.400'); }
-    .prose ol > li::marker { color: theme('colors.sky.500'); font-weight: 600; }
-    .dark .prose ol > li::marker { color: theme('colors.sky.400'); }
+    .prose ul > li::marker { color: #9fe870; }
+    .dark .prose ul > li::marker { color: #9fe870; }
+    .prose ol > li::marker { color: #9fe870; font-weight: 600; }
+    .dark .prose ol > li::marker { color: #9fe870; }
 
     .prose img { transition: transform 0.2s; }
     .prose img:hover { transform: scale(1.01); }
 
-    .prose del { color: #9ca3af; }
-    .dark .prose del { color: #64748b; }
+    .prose del { color: #868685; }
+    .dark .prose del { color: #6b6b6a; }
 
     .prose .contains-task-list { list-style: none; padding-left: 0; }
     .prose .contains-task-list li { display: flex; align-items: flex-start; gap: 0.5rem; }
-    .prose .contains-task-list input[type="checkbox"] { margin-top: 0.35rem; accent-color: theme('colors.sky.500'); }
+    .prose .contains-task-list input[type="checkbox"] { margin-top: 0.35rem; accent-color: #9fe870; }
 
     /* ── Animations ── */
     .prose > * { animation: fadeIn 0.35s ease-out both; }
@@ -111,13 +111,7 @@
     .prose > *:nth-child(n+10) { animation-delay: 270ms; }
   </style>
 </head>
-<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-200 font-sans antialiased min-h-screen flex flex-col">
-  <!-- Background glow -->
-  <div class="fixed inset-0 pointer-events-none overflow-hidden -z-10">
-    <div class="absolute top-[-20%] left-[-10%] w-[40%] h-[40%] bg-sky-400/10 dark:bg-sky-600/10 rounded-full blur-[120px]"></div>
-    <div class="absolute bottom-[-20%] right-[-10%] w-[40%] h-[40%] bg-sky-400/10 dark:bg-sky-600/10 rounded-full blur-[120px]"></div>
-  </div>
-
+<body class="bg-[#e8ebe6] dark:bg-[#0e0f0c] text-[#0e0f0c] dark:text-[#e8ebe6] font-sans antialiased min-h-screen flex flex-col">
   <%- include('../partials/navbar') %>
 
   <main class="flex-1">

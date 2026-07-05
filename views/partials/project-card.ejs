@@ -1,13 +1,13 @@
-<a href="<%= project.href %>" target="_blank" rel="noopener noreferrer" class="group block bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
+<a href="<%= project.href %>" target="_blank" rel="noopener noreferrer" class="group block bg-white dark:bg-[#1a1c18] rounded-3xl overflow-hidden hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
   <div class="aspect-video overflow-hidden">
     <img src="<%= project.image %>" alt="<%= project.title %>" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
   </div>
-  <div class="p-5">
-    <h3 class="text-lg font-bold text-slate-800 dark:text-slate-100 group-hover:text-sky-600 dark:group-hover:text-sky-400 transition-colors mb-2"><%= project.title %></h3>
-    <p class="text-sm text-slate-500 dark:text-slate-400 mb-3"><%= project.description %></p>
+  <div class="p-6">
+    <h3 class="text-lg font-bold text-[#0e0f0c] dark:text-[#e8ebe6] group-hover:text-[#163300] dark:group-hover:text-[#9fe870] transition-colors mb-2"><%= project.title %></h3>
+    <p class="text-sm text-[#454745] dark:text-[#868685] mb-3"><%= project.description %></p>
     <div class="flex flex-wrap gap-1.5">
       <% (project.tags || []).forEach(function(tag) { %>
-        <span class="text-xs px-2 py-0.5 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-400"><%= tag %></span>
+        <span class="text-xs px-2 py-0.5 rounded-full bg-[#e8ebe6] dark:bg-[#2a2d25] text-[#454745] dark:text-[#868685]"><%= tag %></span>
       <% }); %>
     </div>
   </div>

@@ -1,22 +1,22 @@
-<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="max-w-6xl mx-auto px-6 py-12">
   <div class="flex flex-col lg:flex-row gap-8">
     <!-- Main Content -->
     <article class="flex-1 min-w-0">
-      <a href="/docs" class="inline-block text-sm text-sky-600 dark:text-sky-400 hover:text-sky-700 dark:hover:text-sky-300 transition-colors mb-4">&larr; Back to Docs</a>
-      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white mb-4"><%= doc.title %></h1>
-      <p class="text-lg text-slate-500 dark:text-slate-400 mb-6"><%= doc.description %></p>
-      <div class="flex items-center gap-4 text-sm text-slate-400 dark:text-slate-500 mb-8">
+      <a href="/docs" class="inline-block text-sm font-semibold text-[#0e0f0c] dark:text-[#e8ebe6] hover:text-[#163300] dark:hover:text-[#9fe870] transition-colors mb-4">&larr; Back to Docs</a>
+      <h1 class="text-[40px] font-black leading-[34px] text-[#0e0f0c] dark:text-[#e8ebe6] mb-4"><%= doc.title %></h1>
+      <p class="text-lg text-[#454745] dark:text-[#868685] mb-6"><%= doc.description %></p>
+      <div class="flex items-center gap-4 text-sm text-[#868685] mb-8">
         <span>Last updated: <%= doc.updatedAt || doc.createdAt %></span>
         <span>&middot; <%= doc.readingTime %> min read</span>
       </div>
 
       <div class="prose prose-lg dark:prose-invert max-w-none
-        prose-headings:font-bold prose-headings:text-slate-800 dark:prose-headings:text-slate-100
-        prose-a:text-sky-600 dark:prose-a:text-sky-400 prose-a:font-medium
-        prose-strong:text-slate-800 dark:prose-strong:text-slate-200
+        prose-headings:font-bold prose-headings:text-[#0e0f0c] dark:prose-headings:text-[#e8ebe6]
+        prose-a:text-[#163300] dark:prose-a:text-[#9fe870] prose-a:font-medium
+        prose-strong:text-[#0e0f0c] dark:prose-strong:text-[#e8ebe6]
         prose-code:before:content-none prose-code:after:content-none
-        prose-img:rounded-xl
-        prose-blockquote:border-sky-500 prose-blockquote:text-slate-600 dark:prose-blockquote:text-slate-400">
+        prose-img:rounded-3xl
+        prose-blockquote:border-[#9fe870] prose-blockquote:text-[#454745] dark:prose-blockquote:text-[#c8cac5]">
         <%- doc.html %>
       </div>
     </article>
@@ -24,11 +24,11 @@
     <!-- Sidebar -->
     <aside class="lg:w-72 shrink-0">
       <div class="lg:sticky lg:top-24">
-        <h3 class="text-sm font-semibold text-slate-800 dark:text-slate-200 mb-3 uppercase tracking-wider">Document Index</h3>
+        <h3 class="text-xs font-semibold text-[#868685] mb-3 uppercase tracking-wider">Document Index</h3>
         <ul class="space-y-1">
           <% docs.forEach(function(d) { %>
             <li>
-              <a href="/docs/<%= d.slug %>" class="block px-3 py-2 rounded-lg text-sm transition-all duration-200 <%= d.slug === doc.slug ? 'bg-sky-50 dark:bg-sky-900/30 text-sky-600 dark:text-sky-400 font-medium' : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800' %>">
+              <a href="/docs/<%= d.slug %>" class="block px-3 py-2 rounded-xl text-sm font-medium transition-all duration-200 <%= d.slug === doc.slug ? 'bg-[#e2f6d5] dark:bg-[#163300] text-[#0e0f0c] dark:text-[#9fe870]' : 'text-[#454745] dark:text-[#868685] hover:bg-[#e8ebe6] dark:hover:bg-[#1a1c18]' %>">
                 <%= d.title %>
               </a>
             </li>
