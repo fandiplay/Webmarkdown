@@ -1,5 +1,3 @@
-Buatkan saya sebuah website **personal portfolio + blog + knowledge base (docs)** menggunakan Node.js, dengan arsitektur **Zero-Database** (tanpa database eksternal, semua konten berbasis file Markdown lokal yang di-cache ke memori saat startup). Ikuti spesifikasi teknis dan desain berikut secara detail:
-
 ### 1. Tech Stack
 - Runtime: Node.js dengan **ESM** (`"type": "module"` di package.json)
 - Backend framework: **Express.js**
