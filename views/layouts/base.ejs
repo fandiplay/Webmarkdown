@@ -110,6 +110,13 @@
     .prose > *:nth-child(9) { animation-delay: 240ms; }
     .prose > *:nth-child(n+10) { animation-delay: 270ms; }
 
+    .dokapi-route > summary {
+      list-style: none;
+    }
+
+    .dokapi-route > summary::-webkit-details-marker {
+      display: none;
+    }
     /* ── Paksa warna console kode selalu tema gelap ── */
 [data-code-block] .token.comment,
 [data-code-block] .token.prolog,
@@ -190,7 +197,6 @@
       const group = btn.closest('[data-tab-group]');
       if (!group) return;
 
-      // Update tombol: hapus class active dari semua, tambahkan ke yang diklik
       group.querySelectorAll('[data-tab]').forEach(b => {
         b.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-sky-600', 'dark:text-sky-400', 'border-b-2', 'border-sky-500');
         b.classList.add('text-slate-500', 'dark:text-slate-400');
@@ -198,7 +204,6 @@
       btn.classList.remove('text-slate-500', 'dark:text-slate-400');
       btn.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-sky-600', 'dark:text-sky-400', 'border-b-2', 'border-sky-500');
 
-      // Update konten: sembunyikan semua, tampilkan yang sesuai index
       group.querySelectorAll('[data-tab-content]').forEach(content => {
         content.classList.add('hidden');
       });
