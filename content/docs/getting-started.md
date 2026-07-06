@@ -90,11 +90,3 @@ pnpm add express
 < response 200 User list retrieved successfully <
 
 < response 201 User created successfully <
-
-## Reusable References
-
-# define-reference api-base
-Base URL: `https://api.example.com/v1`
-...
-
-Use the base URL: @ api-base @
