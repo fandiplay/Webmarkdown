@@ -30,7 +30,6 @@
   </script>
   <script src="https://unpkg.com/lucide@latest"></script>
   <link rel="icon" href="/static/logo.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz7QrLh5ErE3KFJGPHbB4j2O1G56NBUoPiGUfYhfJCz" crossorigin="anonymous">
   <style>
     .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
     .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
@@ -118,64 +117,73 @@
     .dokapi-route > summary::-webkit-details-marker {
       display: none;
     }
-    /* ── KaTeX: cegah duplikasi MathML (fallback jika CDN gagal) ── */
-    .katex-mathml { position: absolute !important; clip: rect(1px, 1px, 1px, 1px) !important; padding: 0 !important; border: 0 !important; height: 1px !important; width: 1px !important; overflow: hidden !important; }
-    eq { display: inline; }
 
     /* ── Paksa warna console kode selalu tema gelap ── */
-[data-code-block] .token.comment,
-[data-code-block] .token.prolog,
-[data-code-block] .token.doctype,
-[data-code-block] .token.cdata {
-  color: #6b6b6a;
-  font-style: italic;
-}
-[data-code-block] .token.punctuation {
-  color: #6b6b6a;
-}
-[data-code-block] .token.property,
-[data-code-block] .token.tag,
-[data-code-block] .token.boolean,
-[data-code-block] .token.number,
-[data-code-block] .token.constant,
-[data-code-block] .token.symbol {
-  color: #ffc091;
-}
-[data-code-block] .token.selector,
-[data-code-block] .token.attr-name,
-[data-code-block] .token.builtin {
-  color: #6ee7a0;
-}
-[data-code-block] .token.string,
-[data-code-block] .token.char {
-  color: #6ee7a0;
-}
-[data-code-block] .token.operator,
-[data-code-block] .token.entity,
-[data-code-block] .token.url {
-  color: #9fe870;
-}
-[data-code-block] .token.atrule,
-[data-code-block] .token.attr-value,
-[data-code-block] .token.keyword {
-  color: #9fe870;
-}
-[data-code-block] .token.function,
-[data-code-block] .token.class-name {
-  color: #ffc091;
-}
-[data-code-block] .token.regex,
-[data-code-block] .token.important,
-[data-code-block] .token.variable {
-  color: #f87171;
-}
-[data-code-block] .token.important,
-[data-code-block] .token.bold {
-  font-weight: 700;
-}
-[data-code-block] .token.italic {
-  font-style: italic;
-}
+    [data-code-block] .token.comment,
+    [data-code-block] .token.prolog,
+    [data-code-block] .token.doctype,
+    [data-code-block] .token.cdata { color: #6b6b6a; font-style: italic; }
+    [data-code-block] .token.punctuation { color: #6b6b6a; }
+    [data-code-block] .token.property,
+    [data-code-block] .token.tag,
+    [data-code-block] .token.boolean,
+    [data-code-block] .token.number,
+    [data-code-block] .token.constant,
+    [data-code-block] .token.symbol { color: #ffc091; }
+    [data-code-block] .token.selector,
+    [data-code-block] .token.attr-name,
+    [data-code-block] .token.builtin { color: #6ee7a0; }
+    [data-code-block] .token.string,
+    [data-code-block] .token.char { color: #6ee7a0; }
+    [data-code-block] .token.operator,
+    [data-code-block] .token.entity,
+    [data-code-block] .token.url { color: #9fe870; }
+    [data-code-block] .token.atrule,
+    [data-code-block] .token.attr-value,
+    [data-code-block] .token.keyword { color: #9fe870; }
+    [data-code-block] .token.function,
+    [data-code-block] .token.class-name { color: #ffc091; }
+    [data-code-block] .token.regex,
+    [data-code-block] .token.important,
+    [data-code-block] .token.variable { color: #f87171; }
+    [data-code-block] .token.important,
+    [data-code-block] .token.bold { font-weight: 700; }
+    [data-code-block] .token.italic { font-style: italic; }
+
+    /* ── Tabel premium (wrapper + scroll horizontal) ── */
+    .prose .table-wrapper {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 0.75rem;
+      border: 1px solid var(--tw-prose-td-borders);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      background: transparent;
+    }
+    .dark .prose .table-wrapper {
+      border-color: var(--tw-prose-td-borders);
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    .prose .table-wrapper table {
+      width: max-content;
+      min-width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      border-collapse: collapse;
+      border: none;
+      font-size: inherit;
+    }
+    /* Pertahankan style header asli meski dibungkus */
+    .prose .table-wrapper thead th {
+      position: sticky;
+      top: 0;
+      background: #e2f6d5;
+      z-index: 1;
+    }
+    .dark .prose .table-wrapper thead th {
+      background: #1a2a0a;
+    }
   </style>
 </head>
 <body class="bg-[#e8ebe6] dark:bg-[#0e0f0c] text-[#0e0f0c] dark:text-[#e8ebe6] font-sans antialiased min-h-screen flex flex-col">
@@ -190,32 +198,62 @@
   <script>
     lucide.createIcons();
   </script>
+
+  <!-- Tab switching logic -->
   <script>
-  (function() {
-    document.addEventListener('click', function(e) {
-      const btn = e.target.closest('[data-tab]');
-      if (!btn) return;
+    (function() {
+      document.addEventListener('click', function(e) {
+        const btn = e.target.closest('[data-tab]');
+        if (!btn) return;
 
-      const tabId = btn.dataset.tab;
-      const index = btn.dataset.index;
+        const tabId = btn.dataset.tab;
+        const index = btn.dataset.index;
 
-      const group = btn.closest('[data-tab-group]');
-      if (!group) return;
+        const group = btn.closest('[data-tab-group]');
+        if (!group) return;
 
-      group.querySelectorAll('[data-tab]').forEach(b => {
-        b.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-sky-600', 'dark:text-sky-400', 'border-b-2', 'border-sky-500');
-        b.classList.add('text-slate-500', 'dark:text-slate-400');
+        group.querySelectorAll('[data-tab]').forEach(b => {
+          b.classList.remove('active', 'bg-white', 'dark:bg-slate-800', 'text-sky-600', 'dark:text-sky-400', 'border-b-2', 'border-sky-500');
+          b.classList.add('text-slate-500', 'dark:text-slate-400');
+        });
+        btn.classList.remove('text-slate-500', 'dark:text-slate-400');
+        btn.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-sky-600', 'dark:text-sky-400', 'border-b-2', 'border-sky-500');
+
+        group.querySelectorAll('[data-tab-content]').forEach(content => {
+          content.classList.add('hidden');
+        });
+        const target = document.getElementById(`${tabId}-${index}`);
+        if (target) target.classList.remove('hidden');
       });
-      btn.classList.remove('text-slate-500', 'dark:text-slate-400');
-      btn.classList.add('active', 'bg-white', 'dark:bg-slate-800', 'text-sky-600', 'dark:text-sky-400', 'border-b-2', 'border-sky-500');
+    })();
+  </script>
 
-      group.querySelectorAll('[data-tab-content]').forEach(content => {
-        content.classList.add('hidden');
-      });
-      const target = document.getElementById(`${tabId}-${index}`);
-      if (target) target.classList.remove('hidden');
-    });
-  })();
-</script>
+  <!-- Auto-wrap tables for horizontal scroll -->
+  <script>
+    (function() {
+      function wrapTables() {
+        document.querySelectorAll('.prose table').forEach(table => {
+          // jangan bungkus ulang jika sudah dibungkus
+          if (!table.parentNode || table.parentNode.classList.contains('table-wrapper')) return;
+
+          const wrapper = document.createElement('div');
+          wrapper.className = 'table-wrapper';
+          table.parentNode.insertBefore(wrapper, table);
+          wrapper.appendChild(table);
+        });
+      }
+
+      // Jalankan setelah DOM siap
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', wrapTables);
+      } else {
+        wrapTables();
+      }
+
+      // Jalankan ulang jika ada perubahan DOM (misalnya setelah tab switching)
+      const observer = new MutationObserver(wrapTables);
+      observer.observe(document.body, { childList: true, subtree: true });
+    })();
+  </script>
 </body>
 </html>
