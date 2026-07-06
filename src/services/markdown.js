@@ -3,6 +3,8 @@ import multimdTable from 'markdown-it-multimd-table';
 import { figure } from '@mdit/plugin-figure';
 import { imgLazyload } from '@mdit/plugin-img-lazyload';
 import { tab } from '@mdit/plugin-tab';
+import texmath from 'markdown-it-texmath';
+import katex from 'katex';
 import GithubAnchor from '../libs/markdown/GithubAnchor.js';
 import TableOfContent from '../libs/markdown/TableOfContent.js';
 import AdmonitionContainer from '../libs/markdown/AdmonitionContainer.js';
@@ -30,6 +32,11 @@ md.use(MacCodeBlock);
 md.use(figure);
 md.use(imgLazyload);
 md.use(tab);
+md.use(texmath, {
+  engine: katex,
+  delimiters: ['dollars'],
+  katexOptions: { throwOnError: false }
+});
 md.use(Dokapi);
 md.use(Tabs);
 
