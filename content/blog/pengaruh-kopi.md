@@ -12,7 +12,9 @@ cover: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80"
 ---
 Bagi masyarakat modern, kopi adalah ritual pagi hari. Namun, secara historis dan biologis, kafein $(C_8H_{10}N_4O_2)$ sebenarnya berfungsi sebagai zat psikoaktif paling populer di dunia yang mampu mengubah struktur kognitif manusia.
 Artikel ini membedah fakta ilmiah di balik dampak kopi pada tidur, bagaimana senyawa ini memicu fokus tajam, serta catatan sejarah bagaimana ia memicu badai revolusi dunia.
+
 [[toc]]
+
 ## 1. Fakta Biologis: Mengapa Kopi Merusak Tidur?
 Banyak orang mengira dampak kopi hanya bertahan selama beberapa jam setelah cangkir mereka kosong. Secara biologis, ini adalah asumsi yang salah dan berbahaya bagi kesehatan jangka panjang.
 ### Mekanisme Pemblokiran Adenosin
@@ -70,6 +72,7 @@ Kedai kopi era itu dijuluki **"Penny Universities"** karena dengan membayar satu
 ```
 ## 4. Panduan Taktis Konsumsi Kopi untuk Profesional
 Agar Anda mendapatkan manfaat kognitif maksimal tanpa merusak sistem saraf dan kualitas tidur, gunakan protokol taktis berikut:
+
 ;;tabs
 ## Jam Kerja Utama
  * **09:30 - 11:30**

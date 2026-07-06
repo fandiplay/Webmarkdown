@@ -116,6 +116,10 @@ example 3
 | left       | center      | right       |
 | A          | B           | C           |
 
+### LaTeX
+$(C_8H_{10}N_4O_2)$
+$100\text{ mg}$
+$\approx 50\text{ mg}$
 
 ## API Documentation Example
 
