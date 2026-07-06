@@ -10,7 +10,7 @@ pinned: true
 draft: false
 cover: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80"
 ---
-Bagi masyarakat modern, kopi adalah ritual pagi hari. Namun, secara historis dan biologis, kafein (C_8H_{10}N_4O_2) sebenarnya berfungsi sebagai zat psikoaktif paling populer di dunia yang mampu mengubah struktur kognitif manusia.
+Bagi masyarakat modern, kopi adalah ritual pagi hari. Namun, secara historis dan biologis, kafein $(C_8H_{10}N_4O_2)$ sebenarnya berfungsi sebagai zat psikoaktif paling populer di dunia yang mampu mengubah struktur kognitif manusia.
 Artikel ini membedah fakta ilmiah di balik dampak kopi pada tidur, bagaimana senyawa ini memicu fokus tajam, serta catatan sejarah bagaimana ia memicu badai revolusi dunia.
 [[toc]]
 ## 1. Fakta Biologis: Mengapa Kopi Merusak Tidur?
@@ -24,13 +24,13 @@ Kafein tidak menghilangkan rasa lelah; ia hanya menundanya. Ketika kafein selesa
 :::
 ### Waktu Paruh (*Half-Life*) Kafein
 Tubuh manusia membutuhkan waktu yang cukup lama untuk memproses zat ini. Waktu paruh rata-rata kafein dalam tubuh orang dewasa adalah **5 hingga 7 jam**, dengan waktu eliminasi total mencapai **10 hingga 12 jam**.
-Berikut adalah simulasi pembusukan kafein dalam tubuh jika Anda mengonsumsi satu cangkir kopi hitam (mengandung sekitar 100\text{ mg} kafein) pada sore hari:
+Berikut adalah simulasi pembusukan kafein dalam tubuh jika Anda mengonsumsi satu cangkir kopi hitam (mengandung sekitar $100\text{ mg}$ kafein) pada sore hari:
 
 | Waktu Konsumsi | Sisa Kafein Aktif di Tubuh | Dampak Biologis |
 | :--- | :--- | :--- |
-| **15:00** (Minum Kopi) | 100\text{ mg} | Kewaspadaan meningkat tajam. |
-| **21:00** (6 Jam Kemudian) | \approx 50\text{ mg} | Masih cukup tinggi untuk mengganggu fase tidur nyenyak. |
-| **03:00** (12 Jam Kemudian) | \approx 25\text{ mg} | Tubuh baru mulai terbebas dari efek stimulan aktif. |
+| **15:00** (Minum Kopi) | $100\text{ mg}$ | Kewaspadaan meningkat tajam. |
+| **21:00** (6 Jam Kemudian) | $\approx 50\text{ mg}$ | Masih cukup tinggi untuk mengganggu fase tidur nyenyak. |
+| **03:00** (12 Jam Kemudian) | $\approx 25\text{ mg}$ | Tubuh baru mulai terbebas dari efek stimulan aktif. |
 
 :::danger Ancaman Terhadap Deep Sleep
 Meskipun secara genetik Anda merasa bisa langsung tertidur setelah minum kopi malam, kafein di dalam darah Anda tetap memangkas durasi tidur nyenyak (*deep sleep* atau NREM tahap 3). Akibatnya, Anda akan terbangun dalam kondisi fisik yang belum sepenuhnya pulih.
