@@ -99,6 +99,24 @@ example 3
 
 ![Sample Image](https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80)
 
+### Link yang bisa diklik
+
+[![Badge — made with markdown](https://img.shields.io/badge/made%20with-markdown-blue)](https://commonmark.org)
+
+### Video & Audio (auto-deteksi dari ekstensi file)
+
+![Video sample](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4)
+
+![Audio sample](https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3)
+
+### Table
+
+| Kiri       | Tengah      | Kanan       |
+|:-----------|:-----------:|------------:|
+| left       | center      | right       |
+| A          | B           | C           |
+
+
 ## API Documentation Example
 
 & route GET /api/users List all users &
