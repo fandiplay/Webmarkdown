@@ -5,7 +5,7 @@ slug: "membongkar-cara-kerja-institusi"
 tags: ["Smart Money Concepts", "Market Mechanics", "Trading Strategy", "Liquidity"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
-written: "Admin"
+written: "Support written by AI"
 pinned: true
 draft: false
 cover: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&q=80"

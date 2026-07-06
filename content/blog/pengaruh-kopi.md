@@ -5,7 +5,7 @@ slug: "kafein-fokus-revolusi"
 tags: ["sains", "sejarah", "produktivitas", "kesehatan"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
-written: "Advisor"
+written: "Support written by AI"
 pinned: true
 draft: false
 cover: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80"
