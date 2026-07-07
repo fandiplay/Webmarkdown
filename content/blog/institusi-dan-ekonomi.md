@@ -6,7 +6,7 @@ tags: ["Smart Money Concepts", "Market Mechanics", "Trading Strategy", "Liquidit
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
 written: "Support written by AI"
-pinned: true
+pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&q=80"
 ---
