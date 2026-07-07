@@ -45,7 +45,7 @@ Prinsip matematika ini adalah analogi terbaik untuk sistem *debugging* kehidupan
 
 :::danger Critical: Sindrom Sunk Cost Fallacy & Blind Spot
 Ada dua alasan psikologis kenapa rencana atau hitungan yang sudah telanjur rusak sebaiknya tidak ditambal secara membabi buta:
- 1. **Sunk Cost Fallacy (Bias Sayang Effort):** Seseorang merasa sayang membuang waktu 15	ext{ menit} yang sudah dipakai untuk mencoret-coret, sehingga struktur yang pondasinya sudah salah sejak awal tetap dipaksakan untuk diperbaiki.
+ 1. **Sunk Cost Fallacy (Bias Sayang Effort):** Seseorang merasa sayang membuang waktu $15	ext{ menit}$ yang sudah dipakai untuk mencoret-coret, sehingga struktur yang pondasinya sudah salah sejak awal tetap dipaksakan untuk diperbaiki.
  2. **Blind Spot (Kebutaan Pikiran):** Otak manusia cenderung membaca apa yang *seharusnya* ada di sana, bukan apa yang *sebenarnya* tertulis. Kesalahan tanda minus (-) menjadi plus (+) di baris awal akan terus terlewat jika kertas coretan yang sama tetap dipandang tanpa reset.
    :::
 Menghapus bersih papan tulis dan memulai dari nol bukan tanda kekalahan. Itu adalah **efisiensi taktis** untuk mereset fokus otak tanpa beban bias masa lalu.
