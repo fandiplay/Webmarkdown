@@ -5,7 +5,7 @@ slug: "ssh-multi-account-termux"
 tags: ["termux", "tutorial"]
 createdAt: "2026-07-08"
 updatedAt: "2026-07-08"
-written: "Admin"
+written: "Support written by AI"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&q=80"
@@ -21,8 +21,8 @@ Agar setiap commit menggunakan identitas akun yang sesuai, atur user.name dan us
 Jalankan perintah berikut di dalam folder repository sebelum melakukan commit pertama.
 
 ```bash title="termux"
-$ git config --local user.name "fandiplay"
-$ git config --local user.email "12345678+fandiplay@users.noreply.github.com"
+git config --local user.name "fandiplay"
+git config --local user.email "12345678+fandiplay@users.noreply.github.com"
 
 ```
 

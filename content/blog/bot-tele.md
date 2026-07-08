@@ -2,7 +2,7 @@
 title: "Cara Membuat Bot Telegram Pertama Anda (Desktop & Termux)"
 description: "Panduan praktis dan tanpa basa-basi untuk membangun bot Telegram dari nol menggunakan Node.js. Cocok untuk pemula di Desktop maupun Termux."
 slug: "membuat-bot-telegram-pemula"
-tags: ["teknologi", "tutorial", "pemrograman"]
+tags: ["telegram", "bot", "termux", "tutorial"]
 createdAt: "2026-07-07"
 updatedAt: "2026-07-07"
 written: "Support written by AI"
