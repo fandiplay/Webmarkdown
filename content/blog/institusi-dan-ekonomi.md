@@ -2,7 +2,7 @@
 title: "Membongkar Cara Kerja Institusi: Mengapa Stop Loss Anda Adalah Uang Makan Mereka"
 description: "Panduan analitis dan blak-blakan mengenai taktik manipulasi market maker, rahasia likuiditas BSL/SSL, dan anatomi mitigasi posisi tumbal."
 slug: "membongkar-cara-kerja-institusi"
-tags: ["Smart Money Concepts", "Market Mechanics", "Trading Strategy", "Liquidity"]
+tags: ["ekonomi", "trading", "keuangan"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
 written: "Support written by AI"

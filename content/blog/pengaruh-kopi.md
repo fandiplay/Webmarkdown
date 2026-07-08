@@ -2,7 +2,7 @@
 title: "Bahan Bakar Revolusi Kognitif: Anatomi Biologis dan Sejarah di Balik Secangkir Kopi"
 description: "Analisis mendalam mengapa kopi memicu fokus tajam, bagaimana ia mendisrupsi tidur secara biologis, dan perannya dalam sejarah revolusi dunia."
 slug: "kafein-fokus-revolusi"
-tags: ["sains", "sejarah", "produktivitas", "kesehatan"]
+tags: ["sains", "kesehatan", "gaya-hidup"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
 written: "Support written by AI"

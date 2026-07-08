@@ -2,7 +2,7 @@
 title: "Ultimate Cheat Sheet: Membaca Berita Forex Factory Tanpa Bias"
 description: "Panduan definitif untuk memahami 4 pilar utama indikator ekonomi makro, dampaknya terhadap USD, dan korelasinya dengan Emas (XAUUSD)."
 slug: "panduan-news-forex-factory"
-tags: ["forex", "fundamental", "xauusd", "trading", "macroeconomics"]
+tags: ["ekonomi", "trading", "keuangan"]
 createdAt: "2026-07-07"
 updatedAt: "2026-07-07"
 written: "Support written by AI"

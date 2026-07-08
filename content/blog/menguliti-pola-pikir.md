@@ -2,7 +2,7 @@
 title: "Menguliti Pola Pikir: Navigasi Atensi, Kedaulatan Mental, dan Hukum Leverage"
 description: "Panduan analitis mengobrak-abrik mental korban, mengoptimalkan daya dongkrak (leverage), dan menguasai kedaulatan psikologis di bawah hukum 80/20 dan 10/90."
 slug: "menguliti-pola-pikir"
-tags: ["psikologi-praktis", "mental-model", "strategi", "stoikisme"]
+tags: ["psikologi", "pengembangan-diri", "filosofi"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
 written: "Support written by AI"
