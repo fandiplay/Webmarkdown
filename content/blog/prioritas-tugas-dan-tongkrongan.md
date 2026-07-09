@@ -11,7 +11,6 @@ draft: false
 cover: "https://images.squarespace-cdn.com/content/v1/59f10713edaed8d2d2501c0c/78ae584a-c57b-46cd-a1bb-8180df8a27c3/nik-LUYD2b7MNrg-unsplash.jpg?format=1500w"
 ---
 
-# Berhenti FOMO: Strategi Logis Mengatur Prioritas
 Pernahkah kamu merasa bersalah karena menolak ajakan teman dan memilih diam di rumah? Atau sebaliknya, kamu ikut nongkrong tapi pikiranmu dihantui oleh tugas yang menumpuk?
 Dilema ini terjadi bukan karena kamu tidak tahu cara mengatur waktu, melainkan karena kamu mengandalkan **rasa bersalah** (*guilt-driven*) sebagai kompas pengambilan keputusan, bukan **logika strategis**.
 Berikut adalah panduan analitis untuk membongkar pola pikir yang salah tentang prioritas dan bagaimana mengambil kendali atas waktumu.

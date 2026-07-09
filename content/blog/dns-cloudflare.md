@@ -55,7 +55,7 @@ sky.ns.cloudflare.com
  5. Klik **Save**.
     
 :::note Mengenal Propagasi
-Proses pergantian Nameserver ini membutuhkan waktu transfer otoritas secara global sekitar \approx 1 hingga 24\text{ jam}. Selama masa ini, jangan utak-atik dashboard registrar lama kamu karena hak kontrolnya sudah resmi berpindah!
+Proses pergantian Nameserver ini membutuhkan waktu transfer otoritas secara global sekitar $\approx$ 1 hingga $24\text{ jam}$. Selama masa ini, jangan utak-atik dashboard registrar lama kamu karena hak kontrolnya sudah resmi berpindah!
 :::
 ## Langkah 2: Menghubungkan Domain ke Vercel
 Asumsikan kamu sudah sukses melakukan deploy project website kamu ke Vercel lewat CLI ataupun integrasi GitHub.
