@@ -6,7 +6,7 @@ tags: ["bisnis", "strategi", "manajemen"]
 createdAt: "2026-07-08"
 updatedAt: "2026-07-08"
 written: "Support written by AI"
-pinned: true
+pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=80"
 ---
