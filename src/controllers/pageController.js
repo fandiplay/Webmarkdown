@@ -21,10 +21,26 @@ export function renderBlogIndex(req, res) {
   const posts = cache.blogs.filter(p => !p.draft);
   const sort = req.query.sort || 'newest';
   const tag = req.query.tag || '';
+  const currentPage = Math.max(1, parseInt(req.query.page, 10) || 1);
+  const PER_PAGE = 10;
 
   let filtered = [...posts];
   if (tag) filtered = filtered.filter(p => (p.tags || []).includes(tag));
   if (sort === 'oldest') filtered.reverse();
+
+  // Server-side search — across ALL posts, not just current page
+  const search = (req.query.search || '').trim().toLowerCase();
+  if (search) {
+    filtered = filtered.filter(p =>
+      (p.title || '').toLowerCase().includes(search) ||
+      (p.description || '').toLowerCase().includes(search) ||
+      (p.tags || []).some(t => t.toLowerCase().includes(search))
+    );
+  }
+
+  const totalPosts = filtered.length;
+  const totalPages = Math.ceil(totalPosts / PER_PAGE) || 1;
+  const paginatedPosts = filtered.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
 
   const tagCounts = new Map();
   for (const post of posts) {
@@ -56,11 +72,14 @@ export function renderBlogIndex(req, res) {
   res.render('pages/blog', {
     page: 'blog',
     title: 'Blog',
-    posts: filtered,
+    posts: paginatedPosts,
+    currentPage,
+    totalPages,
     tags: visibleTags,
     hiddenTags,
     hiddenTagCount: hiddenTags.length,
     activeTag: tag,
+    activeSearch: search,
     activeSort: sort,
     seo: {
       title: 'Blog',

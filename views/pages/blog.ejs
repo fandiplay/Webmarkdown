@@ -96,39 +96,49 @@
   </div>
 
   <!-- Search & Sort -->
-  <div class="mb-6 p-3 sm:p-4 rounded-2xl border border-[#dde7d4] dark:border-[#2a2d25] soft-surface shadow-sm">
-    <div class="flex flex-col lg:flex-row gap-3">
-      <div class="flex-1">
-        <label for="search-input" class="sr-only">Search posts</label>
-        <div class="relative">
-          <i data-lucide="search" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#868685]"></i>
-          <input
-            type="text"
-            id="search-input"
-            placeholder="Search posts..."
-            oninput="filterPosts()"
-            class="input-clean w-full pl-11 pr-4 py-3 rounded-xl border border-[#d7e3cb] dark:border-[#454745] bg-white/90 dark:bg-[#1a1c18] text-[#0e0f0c] dark:text-[#e8ebe6] placeholder-[#868685] text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#9fe870]/45 transition-all duration-200"
-          >
+  <form method="GET" action="/blog" id="search-form">
+    <% if (activeTag) { %><input type="hidden" name="tag" value="<%= activeTag %>"><% } %>
+    <div class="mb-6 p-3 sm:p-4 rounded-2xl border border-[#dde7d4] dark:border-[#2a2d25] soft-surface shadow-sm">
+      <div class="flex flex-col lg:flex-row gap-3">
+        <div class="flex-1">
+          <label for="search-input" class="sr-only">Search posts</label>
+          <div class="relative">
+            <!-- Tombol search DI KANAN dengan bentuk rounded-full -->
+            <button type="submit" class="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-[#9fe870] text-[#0e0f0c] hover:bg-[#8ce45a] dark:bg-[#9fe870]/20 dark:text-[#9fe870] dark:hover:bg-[#9fe870]/30 transition-colors duration-200 shadow-sm" aria-label="Search">
+              <i data-lucide="search" class="w-4 h-4"></i>
+            </button>
+            <!-- Input type="search" agar keyboard HP menampilkan tombol Search -->
+            <input
+              type="search"
+              id="search-input"
+              name="search"
+              value="<%= activeSearch || '' %>"
+              placeholder="Search posts..."
+              autocomplete="off"
+              class="input-clean w-full pl-4 pr-14 py-3 rounded-xl border border-[#d7e3cb] dark:border-[#454745] bg-white/90 dark:bg-[#1a1c18] text-[#0e0f0c] dark:text-[#e8ebe6] placeholder-[#868685] text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#9fe870]/45 transition-all duration-200"
+            >
+          </div>
         </div>
-      </div>
 
-      <div class="w-full lg:w-56">
-        <label for="sort-select" class="sr-only">Sort posts</label>
-        <div class="relative">
-          <i data-lucide="arrow-up-down" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#868685]"></i>
-          <select
-            id="sort-select"
-            onchange="filterPosts()"
-            class="input-clean w-full appearance-none pl-11 pr-10 py-3 rounded-xl border border-[#d7e3cb] dark:border-[#454745] bg-white/90 dark:bg-[#1a1c18] text-[#0e0f0c] dark:text-[#e8ebe6] text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#9fe870]/45 transition-all duration-200"
-          >
-            <option value="newest" <%= activeSort === 'newest' ? 'selected' : '' %>>Newest First</option>
-            <option value="oldest" <%= activeSort === 'oldest' ? 'selected' : '' %>>Oldest First</option>
-          </select>
-          <i data-lucide="chevron-down" class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#868685]"></i>
+        <div class="w-full lg:w-56">
+          <label for="sort-select" class="sr-only">Sort posts</label>
+          <div class="relative">
+            <i data-lucide="arrow-up-down" class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#868685]"></i>
+            <select
+              id="sort-select"
+              name="sort"
+              onchange="this.form.submit()"
+              class="input-clean w-full appearance-none pl-11 pr-10 py-3 rounded-xl border border-[#d7e3cb] dark:border-[#454745] bg-white/90 dark:bg-[#1a1c18] text-[#0e0f0c] dark:text-[#e8ebe6] text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-[#9fe870]/45 transition-all duration-200"
+            >
+              <option value="newest" <%= activeSort === 'newest' ? 'selected' : '' %>>Newest First</option>
+              <option value="oldest" <%= activeSort === 'oldest' ? 'selected' : '' %>>Oldest First</option>
+            </select>
+            <i data-lucide="chevron-down" class="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#868685]"></i>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </form>
 
   <!-- Tags -->
   <% if ((tags && tags.length) || (hiddenTags && hiddenTags.length)) { %>
@@ -217,35 +227,52 @@
       <p class="mt-2 text-sm text-[#6e726b] dark:text-[#868685]">Coba ganti kata kunci atau pilih kategori lain.</p>
     </div>
   <% } %>
+
+  <% if (totalPages > 1) { %>
+    <%
+      var q = '';
+      if (activeTag) q += '&tag=' + encodeURIComponent(activeTag);
+      if (activeSort !== 'newest') q += '&sort=' + encodeURIComponent(activeSort);
+      if (activeSearch) q += '&search=' + encodeURIComponent(activeSearch);
+    %>
+    <div class="mt-10 flex items-center justify-center gap-3">
+      <% if (currentPage > 1) { %>
+        <a href="/blog?page=<%= currentPage - 1 %><%= q %>" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-3xl text-sm font-semibold border border-[#dfe5dc] dark:border-[#2a2d25] bg-white/80 dark:bg-[#1a1c18] text-[#454745] dark:text-[#c8cac5] hover:bg-[#eef8e6] dark:hover:bg-[#23261f] hover:text-[#163300] dark:hover:text-[#e8ebe6] transition-all duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          Prev
+        </a>
+      <% } else { %>
+        <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-3xl text-sm font-semibold border border-[#dfe5dc] dark:border-[#2a2d25] bg-white/40 dark:bg-[#1a1c18]/40 text-[#b0b8ab] dark:text-[#3a3d35] cursor-not-allowed">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          Prev
+        </span>
+      <% } %>
+
+      <span class="px-3 py-1 text-sm font-medium text-[#6e726b] dark:text-[#868685]">
+        Page <%= currentPage %> of <%= totalPages %>
+      </span>
+
+      <% if (currentPage < totalPages) { %>
+        <a href="/blog?page=<%= currentPage + 1 %><%= q %>" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-3xl text-sm font-semibold border border-[#dfe5dc] dark:border-[#2a2d25] bg-white/80 dark:bg-[#1a1c18] text-[#454745] dark:text-[#c8cac5] hover:bg-[#eef8e6] dark:hover:bg-[#23261f] hover:text-[#163300] dark:hover:text-[#e8ebe6] transition-all duration-200">
+          Next
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </a>
+      <% } else { %>
+        <span class="inline-flex items-center gap-1.5 px-4 py-2 rounded-3xl text-sm font-semibold border border-[#dfe5dc] dark:border-[#2a2d25] bg-white/40 dark:bg-[#1a1c18]/40 text-[#b0b8ab] dark:text-[#3a3d35] cursor-not-allowed">
+          Next
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        </span>
+      <% } %>
+    </div>
+  <% } %>
 </div>
 
   </div>
-</div><script>
-function filterPosts() {
-  var search = document.getElementById('search-input').value.toLowerCase();
-  var sort = document.getElementById('sort-select').value;
-  var grid = document.getElementById('posts-grid');
-  var cards = Array.from(grid.querySelectorAll('.post-card'));
+</div>
 
-  cards.forEach(function(card) {
-    var title = card.dataset.title || '';
-    var tags = card.dataset.tags || '';
-    var match = title.includes(search) || tags.includes(search);
-    card.style.display = match ? '' : 'none';
-  });
-
-  if (sort === 'oldest') {
-    cards.sort(function(a, b) { return a.dataset.date.localeCompare(b.dataset.date); });
-  } else {
-    cards.sort(function(a, b) { return b.dataset.date.localeCompare(a.dataset.date); });
-  }
-
-  cards.forEach(function(card) { grid.appendChild(card); });
-}
-
+<script>
 function toggleMoreTags() {
   var layer = document.getElementById('more-tags-layer');
-  var btn = document.getElementById('more-tags-btn');
   var arrow = document.getElementById('more-tags-arrow');
 
   if (!layer) return;
@@ -277,5 +304,19 @@ function closeMoreTags() {
 
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeMoreTags();
+});
+
+// ===== PERBAIKAN UTAMA: semua tombol Enter / Go / Search di keyboard HP & desktop =====
+document.addEventListener('DOMContentLoaded', function() {
+  var searchInput = document.getElementById('search-input');
+  if (searchInput) {
+    searchInput.addEventListener('keydown', function(e) {
+      // Menangkap Enter (desktop), Go (Android), Search (iOS/type="search"), dan keyCode 13 (universal)
+      if (e.key === 'Enter' || e.key === 'Go' || e.key === 'Search' || e.keyCode === 13) {
+        e.preventDefault();         // mencegah aksi bawaan (misalnya newline di beberapa browser)
+        this.form.submit();         // submit form secara eksplisit
+      }
+    });
+  }
 });
 </script>
