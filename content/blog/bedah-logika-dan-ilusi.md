@@ -6,9 +6,9 @@ tags: ["mindset", "produktivitas", "strategi", "eksekusi", "psikologi"]
 createdAt: "2026-07-08"
 updatedAt: "2026-07-08"
 written: "Support written by AI"
-pinned: false
+pinned: true
 draft: false
-cover: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80"
+cover: "https://media.istockphoto.com/id/2185300088/photo/woman-walking-in-surreal-flat-landscape-with-a-storm-cloud.jpg"
 ---
 Banyak orang gagal bukan karena kurang pintar, tapi karena logika di kepala mereka berantakan. Mereka sibuk mengamati orang lain, menunda eksekusi dengan alasan "ingin sempurna", dan menangisi hal-hal yang tidak bisa mereka kendalikan.
 Artikel ini akan membedah tiga kutipan fundamental untuk mereset ulang cara Anda berpikir. Baca, pahami, dan terapkan.

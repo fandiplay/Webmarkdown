@@ -6,7 +6,7 @@ tags: ["psikologi-praktis", "mental-model", "strategi", "stoikisme"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
 written: "Support written by AI"
-pinned: true
+pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1739323146459-b132ad6ffbf4?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RvaWNpc218ZW58MHx8MHx8fDA%3D"
 ---
