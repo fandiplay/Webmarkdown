@@ -149,3 +149,14 @@ export function renderDocDetail(req, res) {
     }
   });
 }
+
+export function renderResume(req, res) {
+  res.render('pages/resume', {
+    page: 'resume',
+    title: 'Resume',
+    seo: {
+      title: 'Resume',
+      description: 'Education, experience, and skills overview'
+    }
+  });
+}

@@ -1,5 +1,18 @@
 [
-  { "label": "Home", "href": "/" },
-  { "label": "Blog", "href": "/blog" },
-  { "label": "Docs", "href": "/docs" }
+  {
+    "label": "Home",
+    "href": "/"
+  },
+  {
+    "label": "Blog",
+    "href": "/blog"
+  },
+  {
+    "label": "Docs",
+    "href": "/docs"
+  },
+  {
+    "label": "Resume",
+    "href": "/resume"
+  }
 ]
