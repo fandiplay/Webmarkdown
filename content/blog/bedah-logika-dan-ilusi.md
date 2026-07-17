@@ -6,7 +6,7 @@ tags: ["mindset", "produktivitas", "strategi", "eksekusi", "psikologi"]
 createdAt: "2026-07-08"
 updatedAt: "2026-07-08"
 written: "Support written by AI"
-pinned: true
+pinned: false
 draft: false
 cover: "https://media.istockphoto.com/id/2185300088/photo/woman-walking-in-surreal-flat-landscape-with-a-storm-cloud.jpg"
 ---
