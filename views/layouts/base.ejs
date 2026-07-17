@@ -314,8 +314,8 @@
 
     .prose .table-wrapper th,
     .prose .table-wrapper td {
-      overflow-wrap: anywhere;
-      word-break: break-word;
+      overflow-wrap: break-word;
+      word-break: normal;
     }
 
     .prose .table-wrapper thead th {
@@ -335,6 +335,15 @@
 
     .dark .prose .table-wrapper tbody tr:hover {
       background: rgba(255, 255, 255, 0.03);
+    }
+
+    @media (max-width: 640px) {
+      .prose .table-wrapper th,
+      .prose .table-wrapper td {
+        padding: 0.35rem 0.45rem;
+        font-size: 0.8rem;
+        line-height: 1.45;
+      }
     }
   </style>
 </head>
