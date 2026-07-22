@@ -2,11 +2,11 @@
 title: "Panduan Komprehensif Bentuk Badan Usaha di Indonesia: Dari PO, CV, PT hingga PT Tbk dan Miskonsepsi Pasar Modal"
 description: "Pembedahan tuntas dan objektif mengenai legalitas bisnis di Indonesia (PO, Firma, CV, PT), struktur saham, mekanisme IPO pasar modal, serta pembongkaran miskonsepsi finansial secara akurat."
 slug: "panduan-badan-usaha-dan-pasar-modal"
-tags: ["bisnis", "legalitas", "PT", "CV", "saham", "pasar-modal", "investasi"]
+tags: ["bisnis", "ekonomi", "PT", "CV", "saham", "pasar-modal", "investasi"]
 createdAt: "2026-07-21"
 updatedAt: "2026-07-21"
 written: "Support written by AI"
-pinned: true
+pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"
 ---

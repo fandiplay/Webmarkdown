@@ -6,7 +6,7 @@ tags: ["fisika", "mekanika", "edukasi", "miskonsepsi", "sains-praktis"]
 createdAt: "2026-07-18"
 updatedAt: "2026-07-18"
 written: "Support written by AI"
-pinned: true
+pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1516319915504-015b432d407c?fm"
 ---
