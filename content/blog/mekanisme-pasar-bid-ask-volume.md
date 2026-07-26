@@ -22,7 +22,7 @@ Volume transaksi **bukan** diukur dari berapa banyak jumlah individu yang meneka
 :::note Definisi Utama
 **Volume** adalah akumulasi total unit, lot, atau kontrak yang **berhasil diperjualbelikan (tereksekusi/matched)** antara pihak pembeli dan penjual dalam suatu interval waktu tertentu.
 :::
-Satu transaksi bernilai 100\text{ lot} antara 1 pembeli institusi dan 1 penjual institusi menghasilkan nilai volume yang **sama persis** dengan 100 transaksi eceran bernilai masing-masing 1\text{ lot} antara 100 retail. Pasar hanya mencatat total unit yang berpindah tangan.
+Satu transaksi bernilai $100\text{ lot}$ antara 1 pembeli institusi dan 1 penjual institusi menghasilkan nilai volume yang **sama persis** dengan 100 transaksi eceran bernilai masing-masing $1\text{ lot}$ antara 100 retail. Pasar hanya mencatat total unit yang berpindah tangan.
 ### Analogi Pasar Tiket Konser
 Bayangkan sebuah pasar tiket konser:
  1. **Jumlah Orang vs Jumlah Tiket:** Jika 1.000 orang masing-masing membeli 1 tiket, volume = 1.000. Jika 1 orang borong 1.000 tiket dari penyelenggara, volume = 1.000.
