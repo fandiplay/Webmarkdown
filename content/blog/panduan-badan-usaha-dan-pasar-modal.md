@@ -201,3 +201,8 @@ Terjadi ketika pergerakan harga saham direkayasa oleh entitas bermodal besar (*M
  * **Peraturan Pemerintah Nomor 8 Tahun 2021** *tentang Modal Dasar Perseroan serta Pendaftaran Pendirian, Perubahan, dan Pembubaran Perseroan yang Memenuhi Kriteria Usaha Mikro dan Kecil*.
  * **Undang-Undang Republik Indonesia Nomor 8 Tahun 1995** *tentang Pasar Modal*.
  * **Peraturan Otoritas Jasa Keuangan (POJK)** *terkait Penawaran Umum Perdana Saham dan Kriteria Free Float PT Tbk*.
+
+## Baca Juga Artikel Terkait
+1. [Panduan Komprehensif Bentuk Badan Usaha di Indonesia: Dari PO, CV, PT hingga PT Tbk dan Miskonsepsi Pasar Modal](panduan-badan-usaha-dan-pasar-modal)
+2. [Mekanisme Mikro Pasar Finansial: Membedah Volume, Orderbook, BID & ASK, hingga Price Discovery](mekanisme-pasar-bid-ask-volume)
+3. [Dari Badan Usaha Hingga Pasar Modal: Bedah Tuntas Struktur Hukum, BUMN, IPO, dan Dinamika Supply Saham](anatomi-badan-usaha-dan-pasar-modal)

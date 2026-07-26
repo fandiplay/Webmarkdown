@@ -160,3 +160,8 @@ Perlu pemisahan konteks yang jelas antara pemilik aset riil dan trader pasar tur
  * Hasbrouck, J. (2007). *Empirical Market Microstructure: The Institutions, Economics, and Econometrics of Securities Trading*. Oxford University Press.
  * Bouchaud, J. P., Farmer, J. D., & Lillo, F. (2009). *How Markets Slowly Digest Changes in Supply and Demand*. Handbook of Financial Markets: Dynamics and Evolution, 57-160.
  * CME Group. (2021). [*Understanding the Order Book and Market Depth*. CME Education Resources.](https://www.cmegroup.com)
+
+## Baca Juga Artikel Terkait
+1. [Panduan Komprehensif Bentuk Badan Usaha di Indonesia: Dari PO, CV, PT hingga PT Tbk dan Miskonsepsi Pasar Modal](panduan-badan-usaha-dan-pasar-modal)
+2. [Mekanisme Mikro Pasar Finansial: Membedah Volume, Orderbook, BID & ASK, hingga Price Discovery](mekanisme-pasar-bid-ask-volume)
+3. [Dari Badan Usaha Hingga Pasar Modal: Bedah Tuntas Struktur Hukum, BUMN, IPO, dan Dinamika Supply Saham](anatomi-badan-usaha-dan-pasar-modal)
