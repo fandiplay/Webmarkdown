@@ -93,12 +93,19 @@ Berikut adalah penerapan instrumen pengujian pada teks argumentasi tajuk rencana
      
 ```markdown title="Ketahanan Pangan Lokal (Kompas, 17 Desember 2019)"
 *Ketahanan pangan Indonesia terbukti berkelanjutan secara sosial, ekonomi, politik, dan lingkungan jika dibangun dengan basis sumber daya lokal*. ///Keyakinan tersebut sudah mengemuka sejak tahun 1980-an, bahkan ketika ketahanan pangan nasional akhirnya bergantung hanya pada beberapa komoditas, utamanya beras sebagai sumber karbohidrat.///
+
 ///Ketergantungan pada beras sebagai sumber utama energi berlanjut hingga kini di tengah bukti-bukti akademis bahwa Indonesia mempunyai banyak sumber pangan lain yang dapat menggantikan beras. Salah satu sumber pangan tersebut adalah sagu./// *Potensi sagu yang dimiliki oleh Indonesia sangat luar biasa* ///karena Indonesia memiliki hutan sagu terluas di dunia./// ///Hampir semua tanaman sagu kita tumbuh di Papua dan Papua Barat./// *Meskipun merupakan potensi pangan yang besar, perhatian pada sagu masih minim*. ///Salah satu indikasinya adalah data luas hutan sagu, angkanya berkisar 1,4 juta hektar hingga 5,5 juta hektare.///
+
 *Pemanfaatan sagu sebagai bahan pangan, sumber pendapatan masyarakat, dan pemanfaatan lain masih terbatas*. ///Harian Kompas melaporkan kemarin, salah satu upaya pemanfaatan sagu dilakukan oleh Badan Penelitian dan Pengembangan Daerah Papua dan Dinas Ketahanan Pangan Papua. Kedua lembaga itu membangun kelompok kampung penghasil sagu. Warga di dalam kelompok kampung itu diperkenalkan teknologi pemanenan dan pengolahan sagu menjadi tepung menggunakan alat buatan I Made Budi, pengajar di Universitas Cenderawasih./// *Teknologi tepat guna ini berhasil meningkatkan produksi sagu dan pendapatan warga.*
+
 ///Meskipun program ini baru berjalan sejak awal tahun 2019,/// *keberanian mencoba telah memberikan hasil. Keberhasilan salah satu kampung di Papua tersebut telah membuka kesempatan untuk mereplikasi sistem ini untuk daerah lain. Baik itu daerah yang menghasilkan sagu maupun wilayah yang sumber pangannya bukan sagu.*
+
 *Program pengelompokan kampung sagu tersebut memperlihatkan pendekatan sosial dan ekonomi pada masyarakat berperan lebih penting dalam keberhasilan daripada sekadar menyediakan dana dan peralatan. Penggunaan teknologi sederhana apa pun membutuhkan budaya baru. Program ini sekaligus mengajak masyarakat memasuki cara hidup rasional dan terbuka terhadap perubahan.*
+
 ///Sekarang ini, sumber pangan lokal telah beradaptasi dengan lingkungan setempat sehingga mengurangi jejak karbon karena diproduksi lokal./// ///Dengan demikian, dari pengolahan pangan lokal ini telah membantu mengurangi emisi gas rumah kaca./// *Kegiatan ini juga telah menjadikan produk pangan lokal menjadi sumber ekonomi yang bersumber pada masyarakat sehingga menguatkan komunitas yang ada di masyarakat. Oleh karena itu, dari inisiatif di Papua, pemerintah, dan masyarakat dapat mengambil langkah konkret memetakan kembali sumber pangan lokal sebagai dasar membangun ketahanan pangan yang dapat diandalkan.*
+
 Teks Kutipan Pendukung:
+
 *Tidak dapat kita pungkiri bahwa Indonesia adalah salah satu negara dengan kekayaan hayati terbesar. Tidak sedikit kekayaan hayati tersebut dimanfaatkan negara lain dan kita tidak mendapat apa pun. Di tengah bukti-bukti terjadinya perubahan iklim, sudah saatnya kita menaruh perhatian pada sumber pangan lokal untuk menjamin keberlanjutan hidup kita.*
 ```
 ## 5. Eliminasi Miskonsepsi Logika
