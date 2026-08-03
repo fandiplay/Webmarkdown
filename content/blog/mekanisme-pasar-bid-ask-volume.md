@@ -2,7 +2,7 @@
 title: "Mekanisme Mikro Pasar Finansial: Membedah Volume, Orderbook, BID & ASK, CEX vs DEX, hingga Price Discovery"
 description: "Panduan komprehensif dan terstruktur tentang dinamika eksekusi order, struktur BID/ASK, arti volume sebenarnya, komparasi Orderbook vs AMM, serta pembongkaran miskonsepsi teknis platform trading."
 slug: "mekanisme-pasar-bid-ask-volume"
-tags: ["market-microstructure", "orderbook", "bid-ask", "volume-analysis", "crypto", "forex"]
+tags: ["market-microstructure", "orderbook", "bid-ask", "volume-analysis", "crypto", "ekonomi"]
 createdAt: "2026-07-22"
 updatedAt: "2026-07-27"
 written: "Support written by AI"
