@@ -5,14 +5,11 @@ slug: "dekonstruksi-aturan-goldilocks"
 tags: ["psychology", "atomic-habits", "neuroscience", "goldilocks-rule", "productivity"]
 createdAt: "2026-08-16"
 updatedAt: "2026-08-16"
-written: "Gemini AI & Me"
+written: "AI & ME"
 pinned: true
 draft: false
 cover: "https://images.unsplash.com/photo-1520350094754-f0fdcac35c1c"
 ---
-
-# Dekonstruksi Aturan Goldilocks: Neurobiologi Dopamin, Adaptasi Hedonik, dan Mengapa Musuh Utama Masteri Adalah Kebosanan
-
 Dalam narasi populer tentang pencapaian diri, kegagalan sering diidentifikasi sebagai ancaman terbesar menuju kesuksesan. Namun, analisis neurobiologis dan psikologi perilaku menunjukkan realitas yang berbeda: ancaman paling mematikan bagi konsistensi jangka panjang bukanlah rasa takut gagal, melainkan rasa bosan.
 
 Pada Bab 19 buku Atomic Habits, James Clear menyoroti dinamika ini melalui kisah komedian Steve Martin dan merumuskannya dalam The Goldilocks Rule. Artikel ini membedah secara mendalam mekanika kognitif di balik aturan tersebut, membedah paradoks motivasi, serta meluruskan berbagai miskonsepsi umum.
