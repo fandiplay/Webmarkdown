@@ -5,7 +5,7 @@ slug: "panduan-dns-cloudflare-vercel"
 tags: ["dns", "cloudflare", "vercel", "domain"]
 createdAt: "2026-07-09"
 updatedAt: "2026-07-09"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80"

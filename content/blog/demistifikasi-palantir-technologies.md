@@ -5,7 +5,7 @@ slug: "demistifikasi-palantir-technologies"
 tags: ["big-data", "palantir", "data-engineering", "artificial-intelligence", "business-strategy"]
 createdAt: "2026-07-17"
 updatedAt: "2026-07-17"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1770013398722-f3142a8162c1"

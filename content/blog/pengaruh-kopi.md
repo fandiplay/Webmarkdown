@@ -5,7 +5,7 @@ slug: "kafein-fokus-revolusi"
 tags: ["sains", "kesehatan", "gaya-hidup"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80"

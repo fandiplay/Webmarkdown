@@ -5,7 +5,7 @@ slug: "mekanisme-pasar-bid-ask-volume"
 tags: ["market-microstructure", "orderbook", "bid-ask", "volume-analysis", "crypto", "ekonomi"]
 createdAt: "2026-07-22"
 updatedAt: "2026-07-27"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1560221328-12fe60f83ab8?w=800&q=80"

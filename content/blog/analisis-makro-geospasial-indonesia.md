@@ -5,7 +5,7 @@ slug: "analisis-makro-geospasial-indonesia"
 tags: ["geografi", "ekonomi", "komoditas", "trading", "analisis-pasar"]
 createdAt: "2026-07-25"
 updatedAt: "2026-07-25"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://plus.unsplash.com/premium_photo-1733342562190-1960519ca29f"

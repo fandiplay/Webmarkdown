@@ -5,7 +5,7 @@ slug: "logika-jp-morgan-dan-psikologi-pasar"
 tags: ["investasi", "psikologi-pasar", "ekonomi", "financial-literacy"]
 createdAt: "2026-07-15"
 updatedAt: "2026-07-15"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://t4.ftcdn.net/jpg/03/56/43/55/360_F_356435597_ZCYcaDbXjr6zUgqow4pyIxqMk34TNDjm.jpg"

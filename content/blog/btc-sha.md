@@ -5,7 +5,7 @@ slug: "logika-sha256-bitcoin"
 tags: ["cryptography", "bitcoin", "blockchain", "sha256", "security"]
 createdAt: "2026-07-12"
 updatedAt: "2026-07-12"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&q=80"

@@ -5,7 +5,7 @@ slug: "arsitektur-potensi-gen-pareto"
 tags: ["Habits", "Genetics", "Productivity", "Mental-Models"]
 createdAt: "2026-07-17"
 updatedAt: "2026-07-17"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://plus.unsplash.com/premium_photo-1675644727129-9e2fbc03c500"

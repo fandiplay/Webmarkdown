@@ -5,7 +5,7 @@ slug: "strategi-prioritas-logis"
 tags: ["produktivitas", "mindset", "manajemen-waktu", "psikologi"]
 createdAt: "2026-07-08"
 updatedAt: "2026-07-08"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.squarespace-cdn.com/content/v1/59f10713edaed8d2d2501c0c/78ae584a-c57b-46cd-a1bb-8180df8a27c3/nik-LUYD2b7MNrg-unsplash.jpg?format=1500w"

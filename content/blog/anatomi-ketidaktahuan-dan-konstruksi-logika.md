@@ -5,7 +5,7 @@ slug: "anatomi-ketidaktahuan-dan-konstruksi-logika"
 tags: ["epistemologi","filsafat-sains","tenmaku-no-jaadugar","al-quran","logika-berpikir"]
 createdAt: "2026-08-03"
 updatedAt: "2026-08-03"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: true
 draft: false
 cover: "https://images.unsplash.com/photo-1711202675843-ccdb194d2b7d"

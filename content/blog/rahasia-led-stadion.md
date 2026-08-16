@@ -5,7 +5,7 @@ slug: "rahasia-led-stadion"
 tags: ["technology", "sports", "broadcasting", "ai", "hardware"]
 createdAt: "2026-07-26"
 updatedAt: "2026-07-26"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9"

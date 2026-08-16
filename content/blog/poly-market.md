@@ -5,7 +5,7 @@ slug: "membongkar-logika-polymarket"
 tags: ["blockchain", "polymarket", "ekonomi", "game-theory", "social-consensus"]
 createdAt: "2026-07-14"
 updatedAt: "2026-07-14"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80"

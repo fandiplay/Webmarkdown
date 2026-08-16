@@ -5,7 +5,7 @@ slug: "bitcoin-halving-konsensus-p2p"
 tags: ["bitcoin", "blockchain", "halving", "sha256", "p2p"]
 createdAt: "2026-07-12"
 updatedAt: "2026-07-12"
-written: "Analis Siber Senior"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=800&q=80"

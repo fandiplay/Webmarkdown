@@ -5,7 +5,7 @@ slug: "anatomi-koperasi-lengkap"
 tags: ["koperasi", "ekonomi", "finance", "shu", "bisnis"]
 createdAt: "2026-08-02"
 updatedAt: "2026-08-02"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1583321500900-82807e458f3c"

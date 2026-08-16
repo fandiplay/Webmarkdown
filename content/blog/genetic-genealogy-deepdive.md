@@ -5,7 +5,7 @@ slug: "genetic-genealogy-deepdive"
 tags: ["forensik", "sains", "kriminal", "osint", "edukasi"]
 createdAt: "2026-07-16"
 updatedAt: "2026-07-16"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80"

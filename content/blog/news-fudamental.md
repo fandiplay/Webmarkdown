@@ -5,7 +5,7 @@ slug: "panduan-news-forex-factory"
 tags: ["ekonomi", "trading", "keuangan"]
 createdAt: "2026-07-07"
 updatedAt: "2026-07-07"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80"

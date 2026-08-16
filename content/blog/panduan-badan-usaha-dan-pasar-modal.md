@@ -5,7 +5,7 @@ slug: "panduan-badan-usaha-dan-pasar-modal"
 tags: ["bisnis", "ekonomi", "PT", "CV", "saham", "pasar-modal", "investasi"]
 createdAt: "2026-07-21"
 updatedAt: "2026-07-21"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80"

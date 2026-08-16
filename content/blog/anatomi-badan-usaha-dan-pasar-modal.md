@@ -5,7 +5,7 @@ slug: "anatomi-badan-usaha-dan-pasar-modal"
 tags: ["Bisnis", "HukumPerseroan", "BUMN", "PasarModal", "Saham", "ekonomi"]
 createdAt: "2026-07-26"
 updatedAt: "2026-07-26"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1590497008432-598f04441de8"

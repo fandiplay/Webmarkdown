@@ -5,7 +5,7 @@ slug: "anatomi-short-selling-dan-pertahanan-devisa"
 tags: ["Macroeconomics", "OrderBook", "ShortSelling", "GeorgeSoros", "ekonomi"]
 createdAt: "2026-07-31"
 updatedAt: "2026-07-31"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1591033594798-33227a05780d"

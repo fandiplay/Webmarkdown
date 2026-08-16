@@ -5,7 +5,7 @@ slug: "seni-detektif-kegagalan-survivorship-bias"
 tags: ["mental-model", "psikologi", "productivity", "decision-making"]
 createdAt: "2026-07-16"
 updatedAt: "2026-07-16"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: true
 draft: false
 cover: "https://images.unsplash.com/photo-1724755216762-f719613f7426"

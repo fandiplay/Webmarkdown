@@ -5,7 +5,7 @@ slug: "dekonstruksi-logika-teks-argumentasi"
 tags: ["literasi", "bahasa-indonesia", "logika", "teks-argumentasi", "fakta-vs-opini"]
 createdAt: "2026-07-23"
 updatedAt: "2026-07-23"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&q=80"

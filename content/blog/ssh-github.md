@@ -5,7 +5,7 @@ slug: "ssh-multi-account-termux"
 tags: ["termux", "tutorial"]
 createdAt: "2026-07-08"
 updatedAt: "2026-07-08"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&q=80"

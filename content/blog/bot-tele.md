@@ -5,7 +5,7 @@ slug: "membuat-bot-telegram-pemula"
 tags: ["telegram", "bot", "termux", "tutorial"]
 createdAt: "2026-07-07"
 updatedAt: "2026-07-07"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://plus.unsplash.com/premium_photo-1725985758385-d5462d6e7f50?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGVsZWdyYW0lMjBib3R8ZW58MHx8MHx8fDA%3D"

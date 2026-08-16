@@ -5,7 +5,7 @@ slug: "membongkar-cara-kerja-institusi"
 tags: ["ekonomi", "trading", "keuangan"]
 createdAt: "2026-07-06"
 updatedAt: "2026-07-06"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&q=80"

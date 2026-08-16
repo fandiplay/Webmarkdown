@@ -5,7 +5,7 @@ slug: "setup-email-custom-gratis"
 tags: ["cloudflare", "gmail", "domain"]
 createdAt: "2026-07-09"
 updatedAt: "2026-07-09"
-written: "Support written by AI"
+written: "Gemini AI & Me"
 pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1557200134-90327ee9fafa?w=800&q=80"

@@ -5,7 +5,7 @@ slug: "dekonstruksi-aturan-goldilocks"
 tags: ["psychology", "atomic-habits", "neuroscience", "goldilocks-rule", "productivity"]
 createdAt: "2026-08-16"
 updatedAt: "2026-08-16"
-written: "AI & ME"
+written: "Gemini AI & Me"
 pinned: true
 draft: false
 cover: "https://images.unsplash.com/photo-1520350094754-f0fdcac35c1c"
