@@ -6,7 +6,7 @@ tags: ["Macroeconomics", "OrderBook", "ShortSelling", "GeorgeSoros", "ekonomi"]
 createdAt: "2026-07-31"
 updatedAt: "2026-07-31"
 written: "Support written by AI"
-pinned: true
+pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1591033594798-33227a05780d"
 ---
