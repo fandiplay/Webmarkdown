@@ -8,7 +8,7 @@ updatedAt: "2026-08-22"
 written: "Gemini AI & Me"
 pinned: false
 draft: false
-cover: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
+cover: "https://images.unsplash.com/photo-1668441126118-7ba4c6bac1b5"
 ---
 Pengembangan diri sering kali difokuskan pada pembentukan kebiasaan baru dan pencapaian target. Namun, pada titik pertumbuhan tertentu, instrumen yang awalnya mendorong keberhasilan dapat berubah menjadi penghambat utama. Fenomena ini berakar pada bagaimana identitas dibentuk, dibela, dan diperkembangkan.
 
