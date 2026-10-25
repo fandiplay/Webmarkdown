@@ -6,7 +6,7 @@ tags: ["psychology", "atomic-habits", "neuroscience", "goldilocks-rule", "produc
 createdAt: "2026-08-16"
 updatedAt: "2026-08-16"
 written: "AI & ME"
-pinned: true
+pinned: false
 draft: false
 cover: "https://images.unsplash.com/photo-1520350094754-f0fdcac35c1c"
 ---

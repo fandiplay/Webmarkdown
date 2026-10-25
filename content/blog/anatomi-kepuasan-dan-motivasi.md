@@ -5,10 +5,10 @@ slug: "anatomi-kepuasan-rpe-dan-aturan-goldilocks"
 tags: ["atomic-habits", "neurosains", "psikologi", "motivasi", "produktivitas"]
 createdAt: "2026-10-19"
 updatedAt: "2026-10-19"
-written: "Admin"
+written: "Gemini AI & Me"
 pinned: true
 draft: false
-cover: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80"
+cover: "https://images.unsplash.com/photo-1605514449459-5a9cfa0b9955"
 ---
 
 # Anatomi Kepuasan dan Motivasi: Membedah Rumus Ekspektasi, Dopamin (RPE), dan Aturan Goldilocks
